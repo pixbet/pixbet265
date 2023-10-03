@@ -1,0 +1,68 @@
+body {
+    background-color: #0075cd;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px; /* Adicionado espaçamento abaixo da logo */
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .content {
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .content p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .buttons .button {
+    display: block;
+    width: 300px;
+    padding: 15px;
+    margin: 100px auto 20px auto; /* Margem superior ajustada para centralizar o botão */
+    background-color: white;
+    color: #0075cd;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .buttons .button:hover {
+    background-color: #f6b400;
+  }
+
+  .buttons p {
+    margin: 0;
+    color: white;
+    font-size: large;
+  }
+  .content p {
+    font-size: 20px; /* Tamanho da fonte aumentado para 20px */
+    line-height: 1.5; /* Espaçamento entre as linhas aumentado (1.5 vezes o tamanho da fonte) */
+  }
